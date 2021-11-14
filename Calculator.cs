@@ -2,7 +2,7 @@
 using NLog;
 using System;
 
-namespace ConsoleApp9
+namespace Loggs
 {
     public class Calculator : IAlgorithm
     {

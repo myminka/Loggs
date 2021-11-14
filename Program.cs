@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Loggs;
+using System;
 
 namespace Loggs
 {
@@ -6,7 +7,10 @@ namespace Loggs
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a = 3, b = 0;
+
+            Calculator calculator = new Calculator();
+            calculator.Calculate(a, b);
         }
     }
 }
