@@ -11,6 +11,10 @@ namespace Loggs
 
             Calculator calculator = new Calculator();
             calculator.Calculate(a, b);
+            a = 3;
+            b = 1;
+
+            calculator.Calculate(a, b);
         }
     }
 }
